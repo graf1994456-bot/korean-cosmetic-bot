@@ -11,9 +11,9 @@ from telegram.ext import (
 logging.basicConfig(level=logging.INFO)
 
 # ─── SOZLAMALAR ───────────────────────────────────────────────
-BOT_TOKEN   = "BU_YERGA_TOKENINGIZNI_KIRITING"
-ADMIN_ID    = 000000000       # @userinfobot dan oling
-GROUP_ID    = 000000000       # Guruh ID (-100xxxxxxx)
+BOT_TOKEN = os.getenv("8776863634:AAEy86X6sGv9X1RKp0gbgEubXWFnOBiRCsY")
+ADMIN_ID  = int(os.getenv("566209569"))
+GROUP_ID  = int(os.getenv("-1003771968577"))
 DATA_FILE   = "products.json"
 ORDERS_FILE = "orders.json"
 
